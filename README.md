@@ -1,7 +1,7 @@
 # Tekstide töötlemise koolitus 2017
 
 ## Kirjandust
-Grimmer, Justin & Brandon M Stewart. 2013. [Text as data: The promise and pitfalls of automatic content analysis methods for political texts](https://github.com/user/repo/blob/branch/other_file.md). Political Analysis. 1–31.
+Grimmer, Justin & Brandon M Stewart. 2013. [Text as data: The promise and pitfalls of automatic content analysis methods for political texts](https://academic.oup.com/pan/article/21/3/267/1579321/Text-as-Data-The-Promise-and-Pitfalls-of-Automatic). Political Analysis. 1–31.
 
 Cordell, Ryan 2015. [How Not to Teach Digital Humanities](http://ryancordell.org/teaching/how-not-to-teach-digital-humanities/)
 
