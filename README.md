@@ -1,4 +1,8 @@
 # Tekstide töötlemise koolitus 2017
+#### Koolitavad Kristel Uiboaed, Liina Lindström, Kadri Muischnek Tartu ülikooli eesti ja üldkeeleteaduse instituudist
+##### Korraldab Tartu ülikooli infoühiskonna keskus koostöös ühiskonnateaduste instituudiga
+
+
 
 ## Kirjandust
 Grimmer, Justin & Brandon M Stewart. 2013. [Text as data: The promise and pitfalls of automatic content analysis methods for political texts](https://academic.oup.com/pan/article/21/3/267/1579321/Text-as-Data-The-Promise-and-Pitfalls-of-Automatic). Political Analysis. 1–31.
