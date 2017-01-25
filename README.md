@@ -66,3 +66,4 @@ Pikk ja põhjalik loetelu [Helen Kaljumäe bakalaureusetöös](http://www.murre.
 [Vabamorf](https://github.com/Filosoft/vabamorf)
 
 ## [Regulaaravaldiste kohta](http://korpuslingvistika.ut.ee/loengud/4-loeng/)
+Testi oma oskusi: [natuke lihtsam test](https://www.onlinequizcreator.com/regulaaravaldised-1/quiz-204859) ja [keerulisem](https://www.onlinequizcreator.com/regulaaravaldised-2/quiz-204634)
