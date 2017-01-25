@@ -40,7 +40,6 @@ Kelle arvutis on Linuxi/Unixi opsüsteem,  ei vaja mingit lisvahendit. Windowsi 
 
 
 Praktikumi materjalid on GitHubis 25. jaanuari kaustas.
-...
 
 ## Keskkond ja seadistused <a name="keskkond"></a>
 
@@ -73,7 +72,7 @@ Kõige lihtsam on aga kirjutada oma skriptid faili ja esimesel real defineerida,
 jne
 ```
 
-`tcsh` kasutamine ei ole kohustuslik, aga praktikumides esitatud näited on `tcsh`-põhised.
+`tcsh` kasutamine ei ole kohustuslik, aga praktikumi esitatud näited on `tcsh`-põhised.
 
 Linke, millest võib seadistamisel abi olla:
 
@@ -134,7 +133,7 @@ Masinast väljumine: `exit`.
 
 ## Töö kataloogidega/kaustadega <a name="kataloogid"></a>
 
-Töökataloogi vahetamine (`cd` - ***c**hange **d**irectory*). Näiteks:
+Töökataloogi vahetamine (`cd` - ***c**hange* ***d**irectory*). Näiteks:
 
 ``` bash
 cd kataloog1/kataloog2/…/soovitudKataloog
@@ -183,7 +182,7 @@ Kuhu ma kuulun?
 groups kasutajaNimi
 ```
 
-Kataloogide ja failide sisu sirvimine kitsendatult:
+Kataloogide ja failide sisu sirvimine kitsendatult
 
 ``` bash
 less
@@ -217,14 +216,14 @@ Kustuta kataloog ja kõik tema alamkataloogid koos oma sisuga, r-rekursiivselt. 
 rm -r kustutatavaKataloogiNimi
 ```
 
-Küsi faili kustutamisel nõusolekut:
+Küsi faili kustutamisel nõusolekut
 ``` bash
 rm -i
 ```
 
 ## Töö failidega <a name="failid"></a>
 
-Mis on failis? Faili sisu vaatamine (`cat` - *concatenate, catenate*):
+Mis on failis? Faili sisu vaatamine (`cat` - *concatenate, catenate*)
 
 ``` bash
 cat failiNimi
@@ -236,19 +235,19 @@ cat failiNimi | head -10
 cat failiNimi | tail -3
 ```
 
-Faili sisu ülevaade. Kui palju on failis ridu, sõnu, sümboleid (`wc` - *word count*). **NB!** sõna on see, mis on eraldatud tühikute või muude "nähtamatute sümbolitega", st et tegemist ei ole ilmtingimata lingvistilise sõnaga.
+Faili sisu ülevaade. Kui palju on failis ridu, sõnu, sümboleid (`wc` - ***w**ord **c**ount*). **NB!** sõna on see, mis on eraldatud tühikute või muude "nähtamatute sümbolitega", st et tegemist ei ole ilmtingimata lingvistilise sõnaga.
 
 ``` bash
 cat failiNimi | wc
 ```
 
-Kopeeri faile (`cp` - *copy*):
+Kopeeri faile (`cp` - *copy*)
 
 ``` bash
 cp kopeeritafaFailiNimiVõiTeekond kuhuKopeeridaTeekond
 ```
 
-Liiguta/teisalda faile, nimeta fail ümber (`mv` - *move*):
+Liiguta/teisalda faile, nimeta fail ümber (`mv` - *move*)
 
 ``` bash
 mv vanaFailiNimi uueFailiNimi
@@ -265,7 +264,7 @@ ls | *ühisosa
 
 ## Faili õiguste muutmine <a name="oigused"></a>
 
-`chmod` - *change mode*
+`chmod` - ***ch**ange **mode***
 
 ``` bash
 chmod
@@ -308,7 +307,7 @@ cat failiNimi >> väljundFailiNimi
 
 ### `grep`  <a name="grep"></a>
 
-`grep` otsib ridu etteantud mustri järgi. **NB!** rida, mida näed ekraanil ei ole ilmtingimata see rida, mida näed ekraanil. Arvuti jaoks on rida see, mis lõpeb reavahetuse sümboliga, "enteriga" (`\n` või `\012`). Näiteks:
+`grep` otsib ridu etteantud mustri järgi. **NB!** rida, mida näed ekraanil ei ole ilmtingimata rida arvuti jaoks. Arvuti jaoks on rida see, mis lõpeb reavahetuse sümboliga, "enteriga" (`\n` või `\012`). Näiteks:
 
 ``` bash
 grep ’maja’
@@ -520,7 +519,7 @@ cat *.txt | tr -d '[\.\?!,\":;\)\(]' | tr ' ' '\n' | grep -v '^$' | sort |  uniq
 
 Järgnevalt esitame ühe väga lihtsa võimaluse kõrvuti asetsevate sõnade (nn kollokatsioonide) sagedusloendi tegemiseks. Praegu vaatame ainult kahesõnalisi kombinatsioone vasakult paremale. Eesti keele sõnajärg on varieeruv ja kokku kuuluvad sõnad ei paikne lauses ühesuunaliselt ja üksteisele vahetult järgnevana.
 
-Näiteks.
+Näiteks
 
 *Nimelt **näeb** sel nädalal haridus- ja teadusministeeriumist valitsusse heakskiitmiseks saadetud gümnaasiumi riikliku õppekava määrus **ette**, et tuleb kolm riigieksamit, mis kõik on gümnaasiumiõpilasele kooli lõpetamiseks kohustuslikud.*
 
