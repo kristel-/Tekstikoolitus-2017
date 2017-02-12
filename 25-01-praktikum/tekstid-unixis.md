@@ -498,9 +498,9 @@ Järgnevalt esitame ühe väga lihtsa võimaluse kõrvuti asetsevate sõnade (nn
 
 Näiteks
 
-*Nimelt **näeb** sel nädalal haridus- ja teadusministeeriumist valitsusse heakskiitmiseks saadetud gümnaasiumi riikliku õppekava määrus **ette**, et tuleb kolm riigieksamit, mis kõik on gümnaasiumiõpilasele kooli lõpetamiseks kohustuslikud.*
+Nimelt **näeb** sel nädalal haridus- ja teadusministeeriumist valitsusse heakskiitmiseks saadetud gümnaasiumi riikliku õppekava määrus **ette**, et tuleb kolm riigieksamit, mis kõik on gümnaasiumiõpilasele kooli lõpetamiseks kohustuslikud.
 
-*Kes seda muidugi **ette nägi**, et veidi rohkem kui aasta ja meie mõtlemine hakkas minema hoopis teises suunas.*
+Kes seda muidugi *ette nägi*, et veidi rohkem kui aasta ja meie mõtlemine hakkas minema hoopis teises suunas.
 
 
 ``` bash
