@@ -17,9 +17,13 @@ Wallach, H. 2016. [Computational Social Science: Toward a Collaborative Future](
 
 ### Stilomeetriast
 [Ali Arsalan Kazmi blogist poliitiku kõnede autorsuse tuvastamisest](http://aliarsalankazmi.github.io/blog_DA/posts/r/2016/11/18/authorial_analysis_pm.html)
+
 Kestemont, M et al. 2016[Authenticating the writings of Julius Caesar](http://www.sciencedirect.com/science/article/pii/S0957417416303116)
+
 Rybicki, J. 2016. [Vive la différence: Tracing the (authorial) gender signal by multivariate analysis of word frequencies ](https://academic.oup.com/dsh/article-abstract/31/4/746/2748261/Vive-la-difference-Tracing-the-authorial-gender?redirectedFrom=fulltext)
+
 Rybicki, J, Eder, M. 2011. [Stilomeetriast, eriti vaata HOWTO](https://sites.google.com/site/computationalstylistics/)
+
 [Deeper Delta Across Genres and Languages: Do We Really Need the Most Frequent Words?](https://www.researchgate.net/profile/Jan_Rybicki/publication/220675399_Deeper_Delta_across_genres_and_languages_Do_we_really_need_the_most_frequent_words/links/55976c6308ae793d137cc1f0.pdf)
 
 
