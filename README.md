@@ -50,6 +50,8 @@ Kaks emotsionaalset ja kriitilist artiklit Chomskyst ja tema rollist keeleteadus
 
 ## Unixi abimaterjale
 
+[Linuxi käsurea paigaldamine Windowsis](http://www.windowscentral.com/how-install-bash-shell-command-line-windows-10)
+
 [Bash Quick Reference](http://korpuslingvistika.ut.ee/wp-content/uploads/2016/09/Bash-Quick-Reference.pdf)
 
 Liina Lindströmi materjalid Unixi ja sagedusloendite kohta:[1](http://korpuslingvistika.ut.ee/wp-content/uploads/2016/09/UNIX_1_18_11_2013.pdf), [2](http://korpuslingvistika.ut.ee/wp-content/uploads/2016/09/unix2_parandatud_25_11_2013.pdf), [3](http://korpuslingvistika.ut.ee/wp-content/uploads/2016/09/Unix3.pdf).
