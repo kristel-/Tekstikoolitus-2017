@@ -70,7 +70,7 @@ library("stylo")
 stylo(gui=T)
 ```
 
-
+[Alternatiivne võimalus](http://kodu.ut.ee/~kriztel5/) sisendfailide allalaadmiseks.
 
 
 
