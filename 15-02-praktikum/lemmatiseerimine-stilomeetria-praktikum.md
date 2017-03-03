@@ -45,13 +45,18 @@ conda install -c estnltk -c conda-forge estnltk
 # installi järel võib vajalik olla veel järgmine samm
 python -m nltk.downloader punkt
 
-# keskkonna deaktiveerimine
-deactivate estnltk_env
 ```
 Käivitame lemmatiseeriva skripti. **NB!** Kõik töödeldavad failid ja skript peavad olema samas kaustas. Sisendfailid peavad oleam utf-8 kodeeringus (või eemalda vastav parameeter skriptist). Käsurealt tuleb liikuda samuti sellesse töökausta (`cd`) ning seejärel sisestada käsurealt järgnev käsk.
 
 ```python
 py -3 lemmatizeFiles.py
+```
+
+Töö lõpetades võiks keskkonna ka deaktiveerida.
+
+```python
+# keskkonna deaktiveerimine
+deactivate estnltk_env
 ```
 
 Lisaks vaata kindlasti veel [Estnltk dokumentatsiooni](https://estnltk.github.io/estnltk/1.4.1/index.html).
