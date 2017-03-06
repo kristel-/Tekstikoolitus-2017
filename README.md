@@ -85,11 +85,11 @@ Pikk ja põhjalik loetelu [Helen Kaljumäe bakalaureusetöös](http://www.murre.
 
 ### R-i tekstitöötluspakette
 
-[tm](https://cran.r-project.org/web/packages/tm/tm.pdf)
-
 [NLP](https://cran.r-project.org/web/packages/NLP/NLP.pdf)
 
 [stringr](https://cran.r-project.org/web/packages/stringr/stringr.pdf)
+
+[tm](https://cran.r-project.org/web/packages/tm/tm.pdf)
 
 ## Regulaaravaldised
 
