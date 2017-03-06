@@ -84,11 +84,12 @@ Pikk ja põhjalik loetelu [Helen Kaljumäe bakalaureusetöös](http://www.murre.
 [Vabamorf](https://github.com/Filosoft/vabamorf)
 
 ### R-i tekstitöötluspakette
-`[tm](https://cran.r-project.org/web/packages/tm/tm.pdf)`
 
-`[NLP](https://cran.r-project.org/web/packages/NLP/NLP.pdf)`
+[tm](https://cran.r-project.org/web/packages/tm/tm.pdf)
 
-`[stringr](https://cran.r-project.org/web/packages/stringr/stringr.pdf)`
+[NLP](https://cran.r-project.org/web/packages/NLP/NLP.pdf)
+
+[stringr](https://cran.r-project.org/web/packages/stringr/stringr.pdf)
 
 ## Regulaaravaldised
 
