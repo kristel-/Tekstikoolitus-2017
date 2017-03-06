@@ -15,6 +15,8 @@ Poor, Nathaniel & Roei Davidson. [The Ethics of Using Hacked Data: Patreon’s D
 
 Wallach, H. 2016. [Computational Social Science: Toward a Collaborative Future](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/04/wallach16computational.pdf). Computational Social Science: Discovery and Prediction. Cambridge University Press.
 
+Wickham, Hadley. 2014. [Tidy Data](https://www.jstatsoft.org/article/view/v059i10). Journal of Statistical Software 59(10).
+
 ### Stilomeetriast
 
 [Stilomeetriast üldiselt, kirjandust, R-i pakett jmt, eriti vaata HOWTO](https://sites.google.com/site/computationalstylistics/)
