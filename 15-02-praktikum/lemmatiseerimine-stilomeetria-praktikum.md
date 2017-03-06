@@ -1,9 +1,10 @@
 ---
 title: "15. veebruari praktikum. Lemmatiseerimine ja stilomeetria"
 author: "Kristel Uiboaed"
-date: "14. veebruar 2017"
+date: "14.02.2017"
 output:
   word_document: default
+  pdf_document: default
   html_document: default
 ---
  
@@ -61,7 +62,7 @@ deactivate estnltk_env
 
 Lisaks vaata kindlasti veel [Estnltk dokumentatsiooni](https://estnltk.github.io/estnltk/1.4.1/index.html).
 
-Alternatiivne viis lemmatiseerimiseks [Keeleliinis](https://keeleliin.keeleressursid.ee/#/public/definition/32).
+Alternatiivne viis lemmatiseerimiseks [Keeleliinis](https://keeleliin.keeleressursid.ee/#/public/definition/33).
 
 ### Stilomeetrilise analüüsi jaoks vajalikud lisasammud (teeme praktikumis koos)
 

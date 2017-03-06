@@ -1,0 +1,69 @@
+---
+title: "Twitteri andmete kogumine R-ga"
+subtitle: "Tekstikoolitus 2017"
+output: html_notebook
+author: "Kristel Uiboaed"
+date: "08.03.2017"
+---
+
+
+Ava RStudio ja alustuseks loome endale uue kausta, kuhu kogume uued andmed, ning teeme sellest kaustast aktiivse töökataloogi. Kopeeri järgnev kood ja asenda oma faili teekond sellega, kus sinu arvutis failid asuvad. Seejärel seadista töökataloog käsuga `setwd`.
+
+```{r, eval=FALSE}
+dir.create(file.path("C:/Users/kasutaja/...", "twitteriAndmed"))
+setwd("C:/Users/kasutaja/.../twitteriAndmed")
+```
+
+Installeeri endale vajalikud R-i paketid:
+
+```{r, eval=FALSE}
+install.packages("twitteR")
+install.packages("plyr")
+install.packages("dplyr")
+```
+
+Ja võta need kasutusele:
+
+```{r, eval=FALSE}
+library("twitteR")
+library("plyr")
+library("dplyr")
+```
+
+Loo endale Twitteri konto, kui sul seda juba pole. Peale konto loomist mine lehele [https://apps.twitter.com/](https://apps.twitter.com/). Ja loo uus rakendus (*Create new application*). Täida kohustuslikud väljad ja kinnita oma valik (*Create new application*). Seejärel mine menüüsse *Keys and Access Tokens*, kust leiad vajaliku info. Genereeri oma ligipääsustring (*token*) (*Generate My Access Token*).
+
+Vajalik info:       
+*Access Token*     
+*Access Token Secret*     
+*Consumer Key*      
+*Consumer Secret*     
+
+Kopeeri oma rakenduse info (kustuta ära jutumärkide vahel olevad sõnad ja nende asemele sisesta oma rakenduse andmed):
+
+```{r, eval=FALSE}
+api_key <- "YOUR API KEY"
+api_secret <- "YOUR API SECRET"
+access_token <- "YOUR ACCESS TOKEN"
+access_token_secret <- "YOUR ACCESS TOKEN SECRET"
+```
+
+Loo ligipääs ja vali autentimine brauseri kaudu ([1]).
+
+```{r, eval=FALSE}
+setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
+```
+
+Nüüd on andmete kogumiseks kõik valmis. Asenda *minuOtsing* sind huvitava otsingusõnaga. See käsk otsib ainult n-ö täpset sõna, s.t. et *#etvfoorum* ja *etvfoorum* otsingute tulemused ei ole samad. *n* tähistab seda, mitu tiiti maksimaalselt tagastatakse.
+
+```{r, eval=FALSE}
+minuTwiidid <- searchTwitter('minuOtsing', n=5000)
+```
+
+Kui twiidid on alla laetud, tuleks väljundit natuke muuta, et see oleks lihtsamini loetav ja Unixis töödeldav.
+
+```{r, eval=FALSE}
+minuTwiidid.df <- do.call(rbind, lapply(minuTwiidid, as.data.frame))
+write.csv2(minuTwiidid.df, "twitteriFail.csv", row.names=F)
+```
+
+Kui hakka Twitteri andmeid oma töös kasutama, siis tutvuge kindlasti reeglitega: [https://dev.twitter.com/overview/terms/policy](https://dev.twitter.com/overview/terms/policy).
