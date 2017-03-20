@@ -1,0 +1,24 @@
+---
+title: "8. märtsi praktikumi juhend"
+author: "Kristel Uiboaed"
+date: "9. märts 2017"
+output: html_document
+---
+
+Praktikkumis kasutasime R-i Twitteri andmete allalaadimiseks ja seejärel töötlesime väljundfaili shelli skriptidega. Rakendasime kõiki eelmistes praktikumides omandatud oskusi. Praktikumi kaustas on nii sisend- kui ka väljundfailid ning järgnevalt on esitatud praktikumi tööde järjekord.
+
+### Twitteri andmete allalaadimine R-ga
+
+Twitteri andmete allalaadimise juhendi leiab failist [tekstikoolitusTwitter.Rmd](tekstikoolitusTwitter.Rmd). Praktikumis töötasime edasi ettevalmistatud failiga [foorum2102-utf8.csv](foorum2102-utf8.csv). Näitefailist on eemaldatud suurem osa andmetest, st et algfail, mille ise Twitterist tõmbate näeb välja teistsugune ja sisaldab rohkem andmeid.
+
+### Twitteri faili puhastamine
+
+Twitterist tõmmatud faili puhastasime [shelli skriptiga](foorumiPuhastus.sh). Teksti teisendamise ja puhastamise eesmärk oli jätta alles ainult sõnumi osa ning eemaldada sõnumitest kõik mittetekstiline materjal (veebiaadressid, märksõnad jmt), samuti mittesoovitavad sümbolid. NB! Kui töötad oma failiga, tuleks ka puhastamise faili vastavalt sellele muuta, sest iga tekstiline veebist tõmmatud sisend on kindlasti millegi poolest erinev. Et teada saada, mida mingi tekst sisaldab, milliseid sümboleid, sõnu jmt on vaja kustutada ja/või teisendada, siis esmaseks teksti analüüsiks võib näiteks teha märkide/sümbolite, sõnade jmt sagedusloendeid. Mõned selleks otstarbeks tehtud shelli skriptid on leitavad [siit](https://github.com/kristel-/Corpus-Linguistics/tree/master/Unix). Näiteks sellel failil rakendati enne skripti [leia_margid.sh](leia_margid.sh). Teisendatud ja puhastatud väljund on failis [puhastatudRead.txt](puhastatudRead.txt). Shelli skripte rakendasime käsurealt [teises praktikumis](https://github.com/kristel-/Tekstikoolitus-2017/tree/master/25-01-praktikum). Erinevus oli vaid selles, et varem kirjutasime käsud üksteise järel käsureale ja käivitasime need otse käsurealt. Selles praktikumis käivitasime skripti otse skriptifailist, st et samad käsud on kirjutatud faili, mis on eraldi salvestatud ja on niimoodi taaskasutatav ka hiljem. Terminali akna kasutamise kohta võib vaadata ka Korpuslingvistika [kursuse materjale](http://korpuslingvistika.ut.ee/loengud/6-loeng-tere-terminaliaken/).
+
+### Lemmatiseerimine, sagedusloend, stoppsõnade loend
+
+[Puhastatud faili](puhastatudRead.txt) lemmatiseerisime täpselt samamoodi nagu [kolmandas praktikumis](https://github.com/kristel-/Tekstikoolitus-2017/tree/master/15-02-praktikum). Lemmatiseerimise väljund on failis [puhastatudRead_lemmad.txt](puhastatudRead_lemmad.txt). Kasutame lemmatiseeritud faili sõnade algvormide sagedusloendi tegemiseks skriptiga [sagedusloend.sh](sagedusloend.sh). Samas skriptis rakendame enne lõpliku sagedusloendi tegemist nn [stoppsõnade loendit](stoppsonad.csv), vt skriptis rida `grep -vwf "stoppsonad.csv"`. Stoppsõnad on sõnad, mille soovime oma lõplikust analüüsist erinevatel põhjustel eemaldada. Kuna praegu oleme huvitatud "sisulisematest" sõnadest, siis kustutame loendist nt sidesõnad, asesõnad, mõned mitmetähenduslikud tegusõnad jne. Stoppsõnade loendi võib alati teha ise ning see, milliseid sõnu analüüsist eemaldada, oleneb juba konkreetsest ülesandest ja uurimiseesmärgist. NB! probleemide vältimiseks stoppsõnade loendi rakendamisel sellisel kujul tuleks alati veenduda, et nii sisendfaili kui ka stoppsõnade loendi fail oleksid samas kodeeringus. Sagedusloendi väljund on failis [lemmadeSagedusloend.csv](lemmadeSagedusloend.csv).
+
+### Sagedusandmete visualiseerimine
+
+Sagedusloendite üks levinud visualiseerimisviise on nn sõnapilv. Seda on üsna lihtne jällegi teha R-ga. Sisendfailiks on eelmises etapis tekitatud [sagedusloendi fail](lemmadeSagedusloend.csv) ja sõnapilve joonistamiseks kasutame skripti [sonapilv.R](sonapilv.R). Joonis on salvestatud faili [foorumiSonapilv.tiff](foorumiSonapilv.tiff). Graafikult on välja jäetud sõnad, mida esines materjalis ainult üks kord `min.freq = 2`.
