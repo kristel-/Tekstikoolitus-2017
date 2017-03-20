@@ -9,7 +9,7 @@ Praktikkumis kasutasime R-i Twitteri andmete allalaadimiseks ja seejärel tööt
 
 ### Twitteri andmete allalaadimine R-ga
 
-Twitteri andmete allalaadimise juhendi leiab failist [tekstikoolitusTwitter.html](tekstikoolitusTwitter.html). Praktikumis töötasime edasi ettevalmistatud failiga [foorum2102-utf8.csv](foorum2102-utf8.csv). Näitefailist on eemaldatud suurem osa andmetest, st et algfail, mille ise Twitterist tõmbate näeb välja teistsugune ja sisaldab rohkem andmeid.
+Twitteri andmete allalaadimise juhendi leiab failist [tekstikoolitusTwitter.Rmd](tekstikoolitusTwitter.Rmd). Praktikumis töötasime edasi ettevalmistatud failiga [foorum2102-utf8.csv](foorum2102-utf8.csv). Näitefailist on eemaldatud suurem osa andmetest, st et algfail, mille ise Twitterist tõmbate näeb välja teistsugune ja sisaldab rohkem andmeid.
 
 ### Twitteri faili puhastamine
 
