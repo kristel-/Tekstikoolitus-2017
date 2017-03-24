@@ -21,8 +21,8 @@ cat *.txt \
 | sed 's/ *\([0-9]*\) \(.*\)/\2;\1/' > sonavormide-sagedusloend.txt
 ```
 <br><br>
-
 <img src="pythonLogo.png" width="200">
+
 ``` python
 import re
 from operator import itemgetter
